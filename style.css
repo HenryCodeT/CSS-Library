@@ -1,0 +1,38 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+      
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn{
+  padding: 4px 8px;
+  margin: 4px 8px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 1px black;
+  cursor: pointer;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.navbar{
+  width: 700px;
+  margin: 0 auto;
+  background-color: #c1c1c1;
+}
+.position_relative{
+  position: relative;
+}
+.position_absolute{
+  position: absolute;
+}
